@@ -1,0 +1,256 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: sans-serif;
+}
+.main_div{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(168, 207, 219) , rgb(65, 210, 174));
+    position: sticky;
+    height: 3em;
+
+}
+.child_div1{
+width: 60%;
+}
+.child_div2{
+width: 65%;
+font-weight: 600;
+
+}
+.Img{
+    padding-top: 2Px;
+    height: 110%;
+    width: 11%;
+    margin-left: 8Px;
+
+}
+.header_title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 3px;
+    margin-left: 10Px;
+}
+#banner{
+    background-image: linear-gradient(to right, rgb(168, 207, 219) , rgb(65, 210, 174));
+    color:white;
+    padding-top: 10%;
+    padding: 6%;
+    font-size: 18px;
+}
+.para{
+    font-style: italic;
+}
+.img2{
+    height: 50%;
+    width: 75%;
+    margin-left: 13%;
+}
+
+/* overview */
+
+.img3{
+    height: 30%;
+    width: 60%;  
+    padding-top: 11%;
+}
+.overview_para1{
+    padding-top: 2%;
+    font-weight: 600;
+    color:rgb(78, 161, 187);    
+    text-align: justify;
+}
+
+.title::before{
+    content: "";
+    height: 3px;
+    width: 210px;;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color:rgb(78, 161, 187); 
+    transform: translateY(35px);
+    
+}
+.title{
+    font-size: 27px;
+    font-family: serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 1% 0;
+}
+.btn_more{
+    background-image: linear-gradient(to right, rgb(189, 200, 236) , rgb(125, 160, 226));
+    margin: 30%;
+    box-shadow: none;
+    padding: 8px 25px;
+    border:none;
+    border-radius: 20px;
+    color: #fff;
+
+}
+.btn_div{
+    height: 16em;
+    width: 27%;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 36%;
+}
+
+.h4_title{
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 600;
+}
+.academic_title{
+    font-size: 27px;
+    font-family: serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 4% ;
+    padding-top: 0%;
+}
+.academic_title::before{
+    content: "";
+    height: 3px;
+    width: 300px;;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color:rgb(78, 161, 187); 
+    transform: translateY(38px);
+    
+}
+.alumini_img{
+    height: 45%;
+    width: 75%;
+    margin: 10% 25%;
+}
+.alumini2_img{
+    height: 45%;
+    width: 75%;
+    margin: 10% 0% 0% 5%;
+}
+.academic_para{
+    
+    padding-top: 8%;    
+    font-size: 15px;
+    font-family: fantasy;
+    text-align: justify;
+}
+.academic_list{
+    background-image: linear-gradient(to right, rgb(140, 200, 219) , rgb(63, 224, 184));
+    margin: 10px 0;
+    color:rgb(172, 60, 142);
+    font-size: 17px;
+}
+.about_h3{
+    font-size: 21px;
+    font-family: cursive;
+    font-weight: 600;
+    text-align: center;
+}
+.aboutus{
+   /* text-align: center;  */
+   color:rgb(77, 81, 204);
+    font-size: 17px;    
+    width: 55%;    
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+    margin: 3% 0 0 23%;
+    
+}
+.aboutus ol li{
+    padding: 2px;
+}
+.download{
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 600;
+    color: rgb(224, 42, 26);
+    text-align: center;
+    margin-left: 45%;
+}
+.btn_download{
+    /* margin-left: 40%; */
+    box-shadow: none;
+    padding: 8px 25px;
+    border:none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 153, 211);
+    margin-top: 10px;
+}
+
+.title_contact{
+    font-size: 27px;
+    font-family: serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 5% ;
+    padding-top: 5%;
+}
+.title_contact::before{
+    content: "";
+    height: 3px;
+    width: 210px;;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color:rgb(78, 161, 187); 
+    transform: translateY(35px);
+    
+}
+
+.fee_title{
+    font-size: 27px;
+    font-family: serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 5% ;
+    padding-top: 5%;
+}
+.fee_title::before{
+    content: "";
+    height: 3px;
+    width: 300px;;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color:rgb(78, 161, 187); 
+    transform: translateY(38px);
+    
+}
+.footer_container{
+    color: rgb(213, 217, 245);
+    position: sticky;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(163, 171, 198) , rgb(93, 139, 224));
+}
+.footer_img{
+    width: 2%;
+    height: 4%;
+    margin-top: 1%;
+    /* padding-top: 4; */
+}
+.blockquote-footer{
+    color: rgb(191, 59, 147);
+}
+.social_icon img{
+/* width: 60px; */
+transition: 0.5s;
+}
+.social_icon a:hover img{
+transform: translateY(-10px);
+}
+.nav_bar{
+    position: sticky;
+    z-index: 10;
+    top:0
+}
